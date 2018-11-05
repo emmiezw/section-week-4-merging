@@ -8,7 +8,7 @@ import helper_functions
 ######### DO NOT CHANGE PROVIDED CODE #########
 
 class Card(object):
-    suit_names =  ["Diamonds","Clubs","Hearts","Spades"]
+    suit_names =  ["EMMIE","ZHUO","SO","AWESOME"]
     rank_levels = [1,2,3,4,5,6,7,8,9,10,11,12,13]
     faces = {1:"Ace",11:"Jack",12:"Queen",13:"King"}
 
