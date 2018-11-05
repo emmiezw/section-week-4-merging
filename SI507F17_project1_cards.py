@@ -62,12 +62,7 @@ class Deck(object):
     def deal_hand(self, hand_size):
         hand_cards = []
         for i in range(hand_size):
-<<<<<<< HEAD
-            hand_cards.append(self.pop_card(i))
-=======
-            #hand_cards.append(self.pop_card(i))
             hand_cards.append(self.pop_card()) 
->>>>>>> bd476483cd78a367d8bee0ce0fa3a868be8443e8
         return hand_cards
 
 
