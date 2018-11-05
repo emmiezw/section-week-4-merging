@@ -10,7 +10,7 @@ import helper_functions
 class Card(object):
     suit_names =  ["EMMIE","ZHUO","SO","AWESOME"]
     rank_levels = [1,2,3,4,5,6,7,8,9,10,11,12,13]
-    faces = {1:"Ace",11:"Jack",12:"Queen",13:"King"}
+    faces = {1:"HELLOW",11:"WORLD",12:"MY",13:"FRIEND"}
 
     def __init__(self, suit=0,rank=2):
         self.suit = self.suit_names[suit]
