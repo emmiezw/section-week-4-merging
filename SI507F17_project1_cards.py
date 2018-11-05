@@ -8,8 +8,8 @@ import helper_functions
 ######### DO NOT CHANGE PROVIDED CODE #########
 
 class Card(object):
-    suit_names =  ["EMMIE","ZHUO","SO","AWESOME"]
-    rank_levels = [1,2,3,4,5,6,7,8,9,10,11,12,13]
+    suit_names =  ["EMMIE","ZHUO","SO","AWESOME","Xuan","JIN","SOOOOOO", "SEXY"]
+    rank_levels = [11,12,13]
     faces = {1:"Ace",11:"Jack",12:"Queen",13:"King"}
 
     def __init__(self, suit=0,rank=2):
@@ -38,9 +38,6 @@ class Deck(object):
             total.append(card.__str__())
         # shows up in whatever order the cards are in
         return "{0} of {1}".format(self.rank,self.suit) # returns a multi-line string listing each card
-
-    def pop_card(self, i=-1):
-        return self.cards.pop(i) # this card is no longer in the deck -- taken off
 
     def shuffle(self):
         random.shuffle(self.cards)
